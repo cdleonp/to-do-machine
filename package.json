@@ -34,7 +34,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://cdleonp.github.io/task-machine",
+  "homepage": "https://cdleonp.github.io/todo-machine",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
