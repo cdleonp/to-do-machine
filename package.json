@@ -13,6 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -32,5 +34,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "/Users/christianleon/Documents/Christian%20Le%C3%B3n/Cursos/Frontend%20con%20React/curso-react-intro/build/"
+  "homepage": "https://cdleonp.github.io/task-machine",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
